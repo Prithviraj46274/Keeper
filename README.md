@@ -1,12 +1,93 @@
-# React + Vite
+# 🗒️ Keeper App (React Notes App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React notes application** where users can create and delete notes.
+This project demonstrates **React component architecture and state management** using Vite for fast development.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🚀 Features
 
-## Expanding the ESLint configuration
+* Add notes with title and content
+* Delete notes
+* Dynamic UI updates using React
+* Fast development with Vite
+* Clean component-based structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# 🛠 Tech Stack
+
+* React
+* Vite
+* JavaScript
+* CSS
+
+---
+
+# 📂 Project Structure
+
+```
+keeper-app
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   └── components/
+│       ├── App.jsx
+│       ├── CreateArea.jsx
+│       ├── Footer.jsx
+│       ├── Header.jsx
+│       ├── Note.jsx
+│       ├── index.css
+│       ├── index.js
+│       └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```
+git clone https://github.com/yourusername/react-keeper-app.git
+cd react-keeper-app
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+---
+
+# ▶️ Run the Application
+
+Start the development server:
+
+```
+npm run dev
+```
+
+Open the app in your browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🧠 What This Project Demonstrates
+
+* React functional components
+* Component reusability
+* State management with hooks
+* Frontend project setup using Vite
+* Modular project structure
+
+---
